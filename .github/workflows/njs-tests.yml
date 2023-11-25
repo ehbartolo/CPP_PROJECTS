@@ -20,4 +20,5 @@ jobs:
               #run: npm ci
               run: npm install npm
             - name: Run tests
-              run: npm run
+              #run: npm run
+              run: node test.mjs
