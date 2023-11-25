@@ -1,1 +1,5 @@
-hello
+name: Hello world
+on:
+    push:
+        branches:
+            -main
